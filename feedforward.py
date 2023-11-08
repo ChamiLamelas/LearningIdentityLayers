@@ -25,7 +25,7 @@ def learn_identity(dimension):
 
     x = torch.randn((8, dimension)).to(device)
 
-    model = nn.Linear(dimension, dimension).to(device)
+    model = nn.Linear(dimension, dimension, bias=True).to(device)
 
     optimizer = optim.Adam(model.parameters(), lr=0.1)
     learning_rate = optim.lr_scheduler.ExponentialLR(optimizer, 0.5)
@@ -60,7 +60,7 @@ def learn_identity(dimension):
     )
 
 
-learn_identity(8)
+learn_identity(4)
 learn_identity(32)
 learn_identity(256)
 learn_identity(1024)

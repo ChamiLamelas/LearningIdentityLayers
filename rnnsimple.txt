@@ -1,0 +1,110 @@
+
+=== Learning RNN identity for dimension = 4 ===
+
+=== Epoch 500 ===
+loss = 0.00018867
+learning rate = 0.08000000
+Absolute performance:
+max abs err = 0.07646310
+mean abs err = 0.00310878
+
+=== Epoch 1000 ===
+loss = 0.00005378
+learning rate = 0.06400000
+Absolute performance:
+max abs err = 0.03391480
+mean abs err = 0.00331684
+
+=== Epoch 1500 ===
+loss = 0.00000247
+learning rate = 0.05120000
+Absolute performance:
+max abs err = 0.00822401
+mean abs err = 0.00060820
+
+=== Epoch 2000 ===
+loss = 0.00000031
+learning rate = 0.04096000
+Absolute performance:
+max abs err = 0.00297642
+mean abs err = 0.00020373
+
+=== Epoch 2500 ===
+loss = 0.00000005
+learning rate = 0.03276800
+Absolute performance:
+max abs err = 0.00117850
+mean abs err = 0.00007849
+
+=== Epoch 3000 ===
+loss = 0.00000001
+learning rate = 0.02621440
+Absolute performance:
+max abs err = 0.00047284
+mean abs err = 0.00003119
+
+=== Epoch 3500 ===
+loss = 0.00000000
+learning rate = 0.02097152
+Absolute performance:
+max abs err = 0.00018692
+mean abs err = 0.00002213
+
+=== Epoch 4000 ===
+loss = 0.00000070
+learning rate = 0.01677722
+Absolute performance:
+max abs err = 0.00318456
+mean abs err = 0.00053893
+
+=== Epoch 4500 ===
+loss = 0.00000000
+learning rate = 0.01342177
+Absolute performance:
+max abs err = 0.00009716
+mean abs err = 0.00000665
+
+=== Epoch 5000 ===
+loss = 0.00000000
+learning rate = 0.01073742
+Absolute performance:
+max abs err = 0.00003588
+mean abs err = 0.00000238
+
+=== Epoch 5500 ===
+loss = 0.00000000
+learning rate = 0.00858993
+Absolute performance:
+max abs err = 0.00003004
+mean abs err = 0.00000526
+
+=== Epoch 6000 ===
+loss = 0.00000143
+learning rate = 0.00687195
+Absolute performance:
+max abs err = 0.00469628
+mean abs err = 0.00075468
+
+=== Epoch 6500 ===
+loss = 0.00000000
+learning rate = 0.00549756
+Absolute performance:
+max abs err = 0.00001621
+mean abs err = 0.00000127
+
+After 6500 epochs (0:00:32 hh:mm:ss)
+Learned parameters: [Parameter containing:
+tensor([[ 1.2512e+00,  1.0014e-01, -1.0048e-04, -4.6250e-01],
+        [-6.9766e-01,  9.4707e-01,  4.5786e-01, -4.7162e-01],
+        [ 4.8680e-01,  5.0655e-01,  6.8902e-01,  2.0579e-01],
+        [-7.2996e-01, -9.4902e-01,  9.6372e-01,  1.7473e+00]], device='cuda:0',
+       requires_grad=True), Parameter containing:
+tensor([[-0.1396,  0.2869, -0.4944,  0.3726],
+        [-0.5762, -0.3307,  0.3838,  0.3892],
+        [ 0.3860,  0.3238, -0.3818, -0.2523],
+        [-0.5158, -1.0609,  1.0588,  0.0873]], device='cuda:0',
+       requires_grad=True), Parameter containing:
+tensor([ 0.3198,  0.3545, -0.1761, -0.0031], device='cuda:0',
+       requires_grad=True), Parameter containing:
+tensor([-0.1316,  0.1605, -0.1411,  0.4599], device='cuda:0',
+       requires_grad=True)]

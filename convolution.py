@@ -71,6 +71,7 @@ def learn_identity(channels, kernel):
     )
 
 
+learn_identity(4, 3)
 learn_identity(32, 3)
 learn_identity(64, 3)
 learn_identity(256, 3)

@@ -61,6 +61,7 @@ def learn_identity(dimension, lr, lr_step):
     )
 
 
+learn_identity(4, 0.1, 0.8)
 learn_identity(8, 0.1, 0.5)
 learn_identity(32, 0.01, 0.7)
 learn_identity(128, 0.001, 0.8)
