@@ -44,7 +44,7 @@ def learn_identity(dimension):
             print(
                 f"\n=== Epoch {epoch + 1} ===\nloss = {loss.item():.8f}\nlearning rate = {optimizer.param_groups[0]['lr']:.8f}"
             )
-            abs_err = torch.abs(model(x) - x)
+            abs_err = torch.abs(output - x)
             max_abs_err = torch.max(abs_err).to(device)
             print(
                 f"Absolute performance:\nmax abs err = {max_abs_err:.8f}\nmean abs err = {torch.mean(abs_err):.8f}"
